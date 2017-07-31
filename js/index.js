@@ -2,6 +2,8 @@
  * Created by yangyi on 2017/7/19.
  */
 
+"use strict";
+
 let index_js = {};
 
 index_js.number_button =
