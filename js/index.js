@@ -7,7 +7,9 @@
 let index_js = {};
 
 index_js.number_button =
-    document.getElementsByClassName("button_number");
+    document.querySelectorAll(".button.button_number");
+
+console.log(index_js.number_button);
 
 for (let obj of index_js.number_button) {
     obj.onclick = function () {
